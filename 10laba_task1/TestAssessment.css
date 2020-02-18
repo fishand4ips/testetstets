@@ -1,0 +1,47 @@
+q {
+    quotes: "\00ab" "\00bb";
+}
+textarea{
+    display: none;
+}
+
+p {
+    font-family: Trebuchet MS, sans-serif;
+}
+hr.taskDown {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+hr.head {
+    position: center;
+    border-style: wave;
+    border-color: black;
+}
+
+.radio {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 7px;
+}
+.radio + label {
+    position: relative;
+    padding: 0 0 0 35px;
+    cursor: pointer;
+}
+
+ul#list {
+    display: flex;
+}
+
+form:invalid input[type="button"] {
+    opacity: 0.25;
+}
+

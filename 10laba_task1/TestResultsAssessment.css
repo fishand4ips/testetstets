@@ -1,0 +1,38 @@
+H2 {
+    text-shadow: 1px 1px white,
+    2px 2px #777;
+    color: #333;
+    transition: all 1s;
+}
+H2:hover {
+    text-shadow: 1px 1px white,
+    2px 2px lightslategray;
+    color: black;
+}
+H1 {
+    overflow: hidden;
+    text-shadow: 0 0 lightslategray,
+    0 0 lightslategray,
+    0 0 black;
+    color: transparent;
+    transition: all 1s;
+}
+H1:hover {
+    text-shadow: -400px 0 lightslategray,
+    400px 0 lightslategray,
+    0 0 black;
+}
+q {
+    quotes: "\00ab" "\00bb";
+}
+.toggle {
+    width: 750px;
+    text-align: right;
+}
+.toggle .content {
+    text-align: left;
+
+}
+.toggle .toggler {
+    font-size: 11px;
+}

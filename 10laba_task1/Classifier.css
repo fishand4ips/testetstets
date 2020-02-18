@@ -1,0 +1,8 @@
+q {
+    quotes: "\00ab" "\00bb";
+}
+p {
+    font-family: Trebuchet MS, sans-serif;
+    display: block;
+}
+
